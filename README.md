@@ -26,7 +26,7 @@ APC disabled
 <tr><td>zf2 skel</td><td>75ms</td><td>Composer\Autoload\ClassLoader::findFile</td><td>3.7ms</td></tr>
 </table>
 
-APC (apc.stat=0)
+APC enabled (apc.stat=0)
 -----------------
 <table>
 <tr><td>application</td><td>overall latency</td><td>worst method</td><td>worst method latency</td></tr>
@@ -34,7 +34,7 @@ APC (apc.stat=0)
 <tr><td>zf2 skel</td><td>26ms</td><td>Composer\Autoload\ClassLoader::findFile</td><td>3.2ms</td></tr>
 </table>
 
-APC (apc.stat=1)
+APC enabled (apc.stat=1)
 -----------------
 <table>
 <tr><td>application</td><td>overall latency</td><td>worst method</td><td>worst method latency</td></tr>
