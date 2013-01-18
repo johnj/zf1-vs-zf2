@@ -4,20 +4,21 @@ ZF1 vs ZF2
 Working comparison between Zend Framework versions 1 &amp; 2
 
 zf1 version: 1.11.1
+
 zf2 version: 2.0.6
 
 benchmarks
 ==========
 
 Number of function/method calls
-==================
+-------------------------------
 <table>
 <tr><td>application</td><td>calls</td></tr>
 <tr><td>zf1 skel</td><td>1769</td></tr>
 <tr><td>zf2 skel</td><td>6325</td></tr>
 </table>
 
-no APC
+APC disabled
 -----------------
 <table>
 <tr><td>application</td><td>overall latency</td><td>worst method</td><td>worst method latency</td></tr>
